@@ -1,0 +1,169 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+
+}
+
+body
+{
+    background-image: url("../pictures/bg.jpg");
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.logo-space
+{
+    display: flex;
+    justify-content: center;
+}
+
+.logo
+{
+    width: 25%;
+    max-height: 25%;
+}
+
+
+.instructions
+{
+    background: #004399;
+    width: 90%;
+    padding: 15px;
+    margin: auto;
+    border-radius: 10px;
+    color: silver;
+    font-weight: bold;    
+    
+}
+
+.instructions2
+{
+    background: #004399;
+    width: 90%;
+    padding: 15px;
+    margin: auto;
+    border-radius: 10px;
+    color: silver;
+    font-weight: bold; 
+    margin-bottom: 2%; 
+    
+}
+
+
+p
+{
+    margin-bottom: 20px;
+}
+
+.disclaimer
+{
+    font-size: 16px;
+    color: #FFB24F;
+    font-weight: normal;
+    margin-bottom: 8px;
+}
+
+p[name=pes]
+{
+    margin-bottom: 0px;
+}
+
+.formbox
+{   
+    background: #24303c;
+    width: 60%;
+    padding: 15px;
+    margin: auto;
+    margin-top: 1%;
+    border-radius: 10px;
+    color: silver;
+    font-weight: bold;
+    
+    
+}
+
+label, input
+{
+    display: block;
+    margin-bottom: 20px;
+}
+
+.boxtext
+{
+    border: 3px solid #df447a;
+}
+
+input
+{
+    width: 100%;
+}
+
+#send
+{
+    width: 30%;
+    height: 50px;
+    margin:auto;
+    font-weight: bold;
+    background: green;
+    border-radius: 20px;
+    color: #f2f2f2;
+    margin-bottom: 12px;
+}
+
+#send:hover 
+{
+    background: #2a7e90;
+    color: #f2f2f2;
+}
+
+.foot
+{
+    
+    margin-top: 20px;
+    background-color: black;      
+    color: #f2f2f2;
+    text-align: center; 
+    padding-top: 1%; 
+    
+
+}
+
+.footv2
+{
+    
+    margin-top: 20px;
+    background-color: black;      
+    color: #f2f2f2;
+    text-align: center; 
+    padding-top: 1%; 
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    width:100%;
+    
+
+}
+
+.credits
+{
+    font-size: 14px;
+    margin-bottom: 12px; 
+    
+}
+
+.dat1
+{
+    margin-bottom: 0;
+}
+
+.congrats
+{
+    text-align: center;
+    font-size: 30px;
+    color: #A9D00B;
+}
